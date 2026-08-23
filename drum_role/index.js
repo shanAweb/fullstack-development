@@ -1,9 +1,12 @@
 var numberOFButtons = document.querySelectorAll(".drum").length;
 
-for (var i =0; i<numberOFButtons; i++){
-document.querySelectorAll(".drum")[i].addEventListener("click", handleClick)
+for (var i = 0; i < numberOFButtons; i++) {
+  document.querySelectorAll(".drum")[i].addEventListener("click", playTrack);
 
-function handleClick(){
-    alert("I got clicked!")
-}
+  function playTrack() {
+    var audio = new Audio("sounds/1.mp3");
+    audio.play();
+
+    this.style.color = "brown";
+  }
 }

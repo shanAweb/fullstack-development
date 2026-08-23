@@ -1,21 +1,26 @@
-body{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    background-image: radial-gradient(circle, rgb(74, 117, 185), rgb(74, 117, 185));
+body {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-image: radial-gradient(
+    circle,
+    rgb(74, 117, 185),
+    rgb(74, 117, 185)
+  );
 }
-h1{
-    font-size: 96px;
+h1 {
+  font-size: 96px;
+  color: white;
 }
-button{
-    background-color: white;
-    color: red;
-    border: none;
-    padding: 46px;
-    font-size: 46px;
-    border-radius: 10px;
-    margin: 10px;
-    font-weight: 600;
-    font-style: bold;
+button {
+  background-color: white;
+  color: red;
+  border: none;
+  padding: 46px;
+  font-size: 46px;
+  border-radius: 10px;
+  margin: 10px;
+  font-weight: 600;
+  font-style: bold;
 }
