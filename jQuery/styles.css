@@ -1,4 +1,4 @@
-button {
+.btn {
   display: flex;
   align-items: center;
   text-align: center;
@@ -7,6 +7,8 @@ button {
   cursor: pointer;
   padding: 10px;
   border: none;
+  color: red;
+  font-family: cursive;
 }
 .button-container {
   display: flex;
